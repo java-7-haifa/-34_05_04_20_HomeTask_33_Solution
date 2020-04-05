@@ -7,7 +7,7 @@ import Cart from './components/cart/Cart';
 
 function App() {
   return (
-    <div>
+    <>
       <Header/>
       <Container>
         <Switch>
@@ -15,7 +15,7 @@ function App() {
           <Route path='/cart' component={Cart}/> 
         </Switch>
       </Container>
-    </div>
+    </>
   );
 }
 
